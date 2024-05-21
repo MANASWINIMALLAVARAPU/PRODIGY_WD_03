@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#main {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(172, 163, 163, 0.1);
+}
+h1 { 
+    color: white; 
+    margin-bottom: -5px; 
+} 
+p { 
+    margin-bottom: -10px; 
+} 
+.ui { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.row { 
+    display: flex; 
+} 
+.cell { 
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+}   
+.cell:active { 
+    outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+    border-bottom: 1px solid rgb(209, 200, 200) ; 
+    border-right: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b2 { 
+    border-bottom: 1px solid rgb(209, 200, 200) ; 
+    border-right: 1px solid rgb(209, 200, 200) ; 
+    border-left: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b3 { 
+    border-bottom: 1px solid rgb(209, 200, 200) ; 
+    border-left: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b4 { 
+    border-top: 1px solid rgb(209, 200, 200);  
+    border-bottom: 1px solid rgb(209, 200, 200) ; 
+    border-right: 1px solid rgb(209, 200, 200); 
+} 
+      
+#b5 { 
+    border: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b6 { 
+    border-top: 1px solid rgb(209, 200, 200); ; 
+    border-bottom: 1px solid rgb(209, 200, 200); 
+    border-left: 1px solid rgb(209, 200, 200); ; 
+} 
+  
+#b7 { 
+    border-top: 1px solid rgb(209, 200, 200); ; 
+    border-right: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b8 { 
+    border-top: 1px solid rgb(209, 200, 200); ; 
+    border-right: 1px solid rgb(209, 200, 200); 
+    border-left: 1px solid rgb(209, 200, 200); 
+} 
+  
+#b9 { 
+    border-top: 1px solid rgb(209, 200, 200); 
+    border-left: 1px solid rgb(209, 200, 200); 
+} 
+/* Reset Button */
+#but { 
+    box-sizing: border-box; 
+    width: 95px; 
+    height: 40px; 
+    border: 1px solid rgb(232, 226, 226); 
+    margin-left: auto; 
+    border-radius: 8px; 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+  
+    background-color: rgb(246, 231, 231); 
+    color: black; 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+  
+/* Player turn space */
+#print { 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    color: white; 
+    font-size: 20px; 
+} 
+  
+/* Main Container */
+#main { 
+    text-align: center; 
+} 
+  
+/* Game Instruction Text */
+#ins { 
+    font-family: Verdana,Geneva,  
+                    Tahoma, sans-serif; 
+    color: white; 
+}
